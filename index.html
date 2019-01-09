@@ -14,6 +14,7 @@
     <script src="css\bootstrap-4.2.1-dist\bootstrap-4.2.1-dist\js\bootstrap.min.js"></script>
 </head>
 <body>
+<!-- top page navbar with home and link tabs a dropdown, a searchbar and a logo  -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +51,7 @@
     </div>
     </nav>
 
+<!-- fluid jumbotron -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Fluid jumbotron</h1>
@@ -57,6 +59,7 @@
         </div>
     </div>
 
+<!--container containing main article and image+description and recent conatiner-->
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -82,24 +85,101 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-md-4">
-                <h4>Recent</h4>
+                <h3 class="recent">Recent</h3>
+                <div class="row">
+                    <div class="card-img-top d-flex align-items-center bg-light">
+                        <div>
+                            <img class="img-thumbnail img-fluid" src="images/recent-1.jpg" alt="Card image cap">
+                        </div>
+                        <p class="col p-2 m-0">Text next to the right of the image</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center bg-light">
+                        <div>
+                            <img class="img-thumbnail img-fluid" src="images/recent-2.jpg" alt="Card image cap">
+                        </div>
+                        <p class="col p-2 m-0">Text next to the right of the image</p>
+                    </div>
+                    <div class="card-img-top d-flex align-items-center bg-light">
+                        <div>
+                            <img class="img-thumbnail img-thumbnail" src="images/recent-3.jpg">
+                        </div>
+                        <p class="col p-2 m-0">Text next to the right of the image</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
     
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">
-                <h2 class="footer">footer</h2>
-            </div>
-            <div class="col-md-4">
-                <h2 class="footer">footer</h2>
-            </div>
-            <div class="col-md-4">
-                <h2 class="footer">footer</h2>
+<!--Footer - this is a modified jumbotron that occupies the entire horizontal space of its parent-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="row">
+                            <!-- the title of the first container in the footer -->
+                            <div class="footer-heading-1">
+                                    <h3 class="stay-connected">Stay Connected</h3>
+                            </div>
+                            <!-- botton in footer container 1 -->
+                            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-secondary">8</button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-secondary">8</button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-secondary">8</button>
+                                </div>
+                                <div class="btn-group" role="group" aria-label="Third group">
+                                    <button type="button" class="btn btn-secondary">8</button>
+                                </div>
+                            </div>
+                            <!-- ---------------------------------------------------------------------- -->
+                        </div>
+                    </div>
+                        <div class="col-sm">
+                            <div class="row">
+                                <div class="footer-heading-2">
+                                    <h5 class="commited-in">Commited in London</h5>
+                                </div>
+                                <div class="footer-container-2-content">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci vitae minima voluptatem quasi perspiciatis natus soluta architecto accusantium nesciunt ad tempore non distinctio, fugit numquam quibusdam itaque maiores, porro animi?</p>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="col-sm">
+                            logo
+                        </div>
+                        <div class="col-sm">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Support</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 </html>
