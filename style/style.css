@@ -1,0 +1,20 @@
+
+.img-thumbnail {
+    width: 200px;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    
+}
+
+.jumbotron:not(footer) {
+    background-image: url(../images/main-article-2.jpg);
+    background-repeat: repeat-x;
+    background-position: center
+}
+
+.footer-heading-1 {
+    margin: 2px;
+}
+
